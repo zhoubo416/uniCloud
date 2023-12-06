@@ -1,0 +1,15 @@
+{
+	"name": "notify",
+	"version": "1.0.0",
+	"description": "支付回调函数",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Usecloud",
+	"license": "ISC",
+	"dependencies": {
+		"uni-id": "file:../../../uni_modules/uni-id/uniCloud/cloudfunctions/common/uni-id",
+		"uni-pay": "file:../../../uni_modules/uni-pay/uniCloud/cloudfunctions/common/uni-pay"
+	}
+}
