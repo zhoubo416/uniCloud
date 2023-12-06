@@ -1,0 +1,196 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home"
+		}, {
+			"path": "pages/login",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/error/404",
+			"style": {
+				"navigationBarTitleText": "Not Found"
+			}
+		},
+		{
+			"path": "pages/home",
+			"style": {
+				"navigationBarTitleText": "系统首页"
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "pages/shop",
+		"pages": [{
+			"path": "home/page",
+			"style": {
+				"navigationBarTitleText": "店铺首页"
+			}
+		}, {
+			"path": "home/carousel",
+			"style": {
+				"navigationBarTitleText": "轮播图"
+			}
+		}, {
+			"path": "home/carousel_add_edit"
+		}, {
+			"path": "classify/classify_navigation",
+			"style": {
+				"navigationBarTitleText": "分类导航"
+			}
+		}, {
+			"path": "classify/classify_navigation_add_edit"
+		}, {
+			"path": "limit",
+			"style": {
+				"navigationBarTitleText": "限时精选"
+			}
+		}, {
+			"path": "hot",
+			"style": {
+				"navigationBarTitleText": "热门推荐"
+			}
+		}, {
+			"path": "search/page",
+			"style": {
+				"navigationBarTitleText": "搜索管理"
+			}
+		}, {
+			"path": "search/list",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		}, {
+			"path": "search/hot",
+			"style": {
+				"navigationBarTitleText": "热门搜索"
+			}
+		}, {
+			"path": "search/hot_add_edit"
+		}]
+	}, {
+		"root": "pages/goods",
+		"pages": [{
+			"path": "list/goods_list",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		}, {
+			"path": "list/goods_list_add_edit"
+		}, {
+			"path": "list/evaluate_add"
+		}, {
+			"path": "classify/goods_classify",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		}, {
+			"path": "classify/goods_classify_add_edit"
+		}, {
+			"path": "label/page",
+			"style": {
+				"navigationBarTitleText": "标签管理"
+			}
+		}, {
+			"path": "label/goods_tag_add_edit"
+		}, {
+			"path": "label/serve_tag_add_edit"
+		}, {
+			"path": "evaluate",
+			"style": {
+				"navigationBarTitleText": "商品评价"
+			}
+		}]
+	}, {
+		"root": "pages/order",
+		"pages": [{
+			"path": "order/order_list",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		}, {
+			"path": "order/detail"
+		}, {
+			"path": "refunds_dispose",
+			"style": {
+				"navigationBarTitleText": "退款处理"
+			}
+		}, {
+			"path": "deal_set",
+			"style": {
+				"navigationBarTitleText": "交易设置"
+			}
+		}]
+	}, {
+		"root": "pages/member",
+		"pages": [{
+			"path": "list/member_list",
+			"style": {
+				"navigationBarTitleText": "会员列表"
+			}
+		}, {
+			"path": "list/detail"
+		}]
+	}, {
+		"root": "pages/app",
+		"pages": [{
+			"path": "mp/mp_page",
+			"style": {
+				"navigationBarTitleText": "小程序"
+			}
+		}, {
+			"path": "mp/mp_page_add_edit"
+		}]
+	}, {
+		"root": "pages/system_set",
+		"pages": [{
+			"path": "account/account",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		}, {
+			"path": "account/account_add_edit"
+		}, {
+			"path": "role/role",
+			"style": {
+				"navigationBarTitleText": "角色管理"
+			}
+		}, {
+			"path": "role/role_add_edit"
+		}]
+	}, {
+		"root": "pages/log",
+		"pages": [{
+			"path": "operation_log",
+			"style": {
+				"navigationBarTitleText": "操作日志"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "用云电商后台管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"topWindow": {
+		"path": "windows/topWindow",
+		"style": {
+			"height": "112px"
+		},
+		"matchMedia": {
+			"minWidth": 0
+		}
+	},
+	"leftWindow": {
+		"path": "windows/leftWindow",
+		"style": {
+			"width": "180px"
+		}
+	}
+}

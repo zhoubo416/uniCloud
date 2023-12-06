@@ -1,0 +1,34 @@
+{
+    "name": "Usecloud.uniCloud.admin.usemall",
+    "id": "Usecloud.uniCloud.admin.usemall",
+    "version": "1.0.9",
+    "description": "Usecloud.uniCloud.admin.usemall，是基于uni-app和uniCloud的电商应用后台管理",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitee.com/usecloud/usemall"
+    },
+    "keywords": [
+        "admin",
+        "uniCloud",
+        "管理后台",
+        "云后台"
+    ],
+    "author": "Usecloud",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://gitee.com/usecloud/usemall/issues"
+    },
+    "homepage": "https://gitee.com/usecloud/usemall",
+    "dependencies": {
+        "axios": "0.21.1",
+        "echarts": "4.4.0",
+        "echarts-map": "3.0.1",
+        "element-ui": "2.15.1",
+        "vue-countupjs": "1.0.0",
+        "wangeditor": "3.1.1"
+    }
+}
