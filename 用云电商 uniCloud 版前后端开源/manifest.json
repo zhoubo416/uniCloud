@@ -1,8 +1,8 @@
 {
-    "name" : "用云电商 uniCloud 版前后端开源",
+    "name" : "百步小程序",
     "appid" : "__UNI__439032B",
-    "description" : "用云电商 uniCloud v1.0.9 开源版（用云 · 让开发更简单）",
-    "versionName" : "1.0.9.210804",
+    "description" : "百步小程序",
+    "versionName" : "1.0",
     "versionCode" : 109,
     "transformPx" : false,
     /* 5+App特有相关 */
@@ -62,7 +62,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx9c98492fdfd0f73f",
         "setting" : {
             "urlCheck" : true,
             "minified" : true
